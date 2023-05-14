@@ -6,6 +6,29 @@
   --red: #d3223c;
 }
 
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...;
+} */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  ...;
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +46,7 @@ a {
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  padding: 2rem;
+  padding: 1rem;
   color: var(--white);
   font-size: 14px;
 }
@@ -58,4 +81,18 @@ button {
 .logo {
   font-size: 20px;
   font-weight: 800;
+  padding: 0;
+}
+
+.img-logo {
+  height: 30px;
+  border-radius: 50%;
+  /* position: absolute; */
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 815px) {
+  #ire {
+    display: none;
+  }
 }
