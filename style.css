@@ -28,10 +28,11 @@ a {
   font-size: 14px;
 }
 
-a:hover {
+a:hover,
+button:hover {
   color: var(--red);
 }
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +52,10 @@ button {
   height: 40px;
   width: 120px;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
 }
