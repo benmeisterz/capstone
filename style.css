@@ -223,9 +223,9 @@ p {
 
 .pic {
   position: absolute;
-  width: 448px;
-  height: 540px;
-  left: 185px;
+  /* width: 448px; */
+  height: 30em;
+  left: 260px;
   top: 185px;
   object-fit: cover;
 }
